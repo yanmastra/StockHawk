@@ -1,8 +1,10 @@
 apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
 apply plugin: 'com.noveogroup.android.check'
 
 repositories {
     maven { url "https://jitpack.io" }
+    mavenCentral()
 }
 
 android {
@@ -66,4 +68,5 @@ dependencies {
     compile 'com.jakewharton.timber:timber:4.4.0'
     compile 'net.sf.opencsv:opencsv:2.3'
     compile 'com.github.PhilJay:MPAndroidChart:v3.0.1'
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
 }
