@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mn_week"
+        android:enabled="true"
+        android:title="@string/week"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/mn_1_month"
+        android:enabled="true"
+        android:title="@string/month_1"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/mn_3_month"
+        android:enabled="true"
+        android:title="@string/month_3"
+        app:showAsAction="withText" />
+</menu>

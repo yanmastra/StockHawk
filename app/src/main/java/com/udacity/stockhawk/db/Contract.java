@@ -1,10 +1,8 @@
-package com.udacity.stockhawk.data;
+package com.udacity.stockhawk.db;
 
 
 import android.net.Uri;
 import android.provider.BaseColumns;
-
-import com.google.common.collect.ImmutableList;
 
 public final class Contract {
 
@@ -48,6 +46,7 @@ public final class Contract {
         static String getStockFromUri(Uri queryUri) {
             return queryUri.getLastPathSegment();
         }
+
 
 
     }

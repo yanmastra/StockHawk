@@ -1,4 +1,4 @@
-package com.udacity.stockhawk.data;
+package com.udacity.stockhawk.db;
 
 import android.content.ContentProvider;
 import android.content.ContentValues;
@@ -11,7 +11,7 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
 
-public class StockProvider extends ContentProvider {
+public class MyProvider extends ContentProvider {
 
     private static final int QUOTE = 100;
     private static final int QUOTE_FOR_SYMBOL = 101;
@@ -125,7 +125,6 @@ public class StockProvider extends ContentProvider {
                         selection,
                         selectionArgs
                 );
-
                 break;
 
             case QUOTE_FOR_SYMBOL:
@@ -186,7 +185,5 @@ public class StockProvider extends ContentProvider {
             default:
                 return super.bulkInsert(uri, values);
         }
-
-
     }
 }

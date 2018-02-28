@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Stock Hawk</string>
+
+    <string name="pref_stocks_key">مخازن</string>
+
+    <string name="pref_display_mode_key">وضع العرض</string>
+    <string name="pref_display_mode_default">@string/pref_display_mode_percentage_key</string>
+
+    <string name="pref_display_mode_absolute_key">مطلق</string>
+    <string name="pref_display_mode_percentage_key">النسبة المئوية</string>
+
+    <string name="default_stocks_yahoo">YHOO</string>
+    <string name="default_stocks_apple">AAPL</string>
+    <string name="default_stocks_microsoft">MSFT</string>
+    <string name="default_stocks_facebook">FB</string>
+
+    <string name="action_change_units">@string/pref_display_mode_key</string>
+
+    <string name="dialog_title">إضافة سهم</string>
+    <string name="dialog_hint">رمز (مثال. GOOG )</string>
+    <string name="dialog_cancel">إلغاء</string>
+    <string name="dialog_add">إضافة</string>
+
+    <string name="error_no_network">لا اتصال الشبكة! سيتم تحميل مؤشر الأسهم عندما تكون الشبكة متاحة.</string>
+    <string name="error_no_stocks">لم يتم إضافة أي أسهم! ضرب زر العمل العائمة لإضافة واحد.</string>
+
+    <string name="toast_stock_added_no_connectivity">تمت إضافة الرمز٪ s. سيتم تحديث عندما الشبكة المتاحة.</string>
+    <string name="toast_no_connectivity">سيتم تحديث عندما الشبكة المتاحة.</string>
+
+    <string name="add_widget">إضافة القطعة</string>
+    <string name="empty">لايوجد بيانات</string>
+
+    <string name="pref_stocks_status_key">stock_status_key</string>
+
+    <string name="stock_invalid">رمز السهم غير صالح!</string>
+    <string name="stock_server_invalid">الخادم يعرض معلومات غير صالحة!</string>
+    <string name="stock_server_down">لم يتم توصيل الخادم!</string>
+    <string name="stock_server_limit">الخادم قد تصل إلى حد الطلب!</string>
+    <string name="stock_unknown">غير معروف!</string>
+    <string name="stock_error">خطأ غير معروف!</string>
+
+    <string name="week">أسبوع</string>
+    <string name="month_1">1 شهر</string>
+    <string name="month_3">3 أشهر</string>
+    <string name="content_add_stock">أضف عرض أسعار أسهم جديد</string>
+    <string name="real_detail">التفاصيل الحقيقية للبيانات</string>
+
+</resources>

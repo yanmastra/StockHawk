@@ -1,13 +1,13 @@
-package com.udacity.stockhawk.data;
+package com.udacity.stockhawk.db;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-import com.udacity.stockhawk.data.Contract.Quote;
+import com.udacity.stockhawk.db.Contract.Quote;
 
 
-class DbHelper extends SQLiteOpenHelper {
+public class DbHelper extends SQLiteOpenHelper {
 
 
     private static final String NAME = "StockHawk.db";

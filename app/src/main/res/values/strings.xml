@@ -31,5 +31,22 @@
 
     <string name="toast_stock_added_no_connectivity">Symbol %s added. Will refresh when network available.</string>
     <string name="toast_no_connectivity">Will refresh when network available.</string>
+    <string name="add_widget">Add widget</string>
+    <string name="empty">No Data</string>
+
+    <string name="pref_stocks_status_key">stock_status_key</string>
+
+    <string name="stock_invalid">Stock symbol is invalid!</string>
+    <string name="stock_server_invalid">Server is returning invalid information!</string>
+    <string name="stock_server_down">Server is not connected!</string>
+    <string name="stock_server_limit">Server has been reach the request limit!</string>
+    <string name="stock_unknown">Unknown stock!</string>
+    <string name="stock_error">Unknown error!</string>
+
+    <string name="week">Week</string>
+    <string name="month_1">1 Month</string>
+    <string name="month_3">3 Month</string>
+    <string name="content_add_stock">Add a new stock quote</string>
+    <string name="real_detail">Real details of data</string>
 
 </resources>
