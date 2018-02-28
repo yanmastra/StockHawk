@@ -10,4 +10,4 @@ Pull requests gratefully accepted.
 
 # What is this ? 
 
-This is a final project of IAK Batch #3 4th Periode Advance class on February 2018
+This is a final project of IAK Bali Batch #3 4th Periode Advance class on February 2018
