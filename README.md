@@ -7,3 +7,7 @@ It corresponds to the skills taught in Udacity's [Advanced Android App Developme
 # Contributing
 
 Pull requests gratefully accepted.
+
+# What is this ? 
+
+This is a final project of IAK Batch #3 4th Periode Advance class on February 2018
